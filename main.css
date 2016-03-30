@@ -2,27 +2,34 @@
   margin: 0;
   padding: 0;
   width: 900px;
-  height: 300px;
+  list-style: none;
 }
 
 .octocat {
   margin: 0;
   padding: 0;
+  /*height: 300px this made image verticle;*/
   list-style: none;
+  display: table-cell;
 
 }
-
+img {
+  /*max-width: 100%;*/
+}
+a {
+  text-decoration: none;
+}
 a img {
   width: 200px;
   height: 200px;
-  border-style: solid grey;
+  border-style: grey;
   border: 5px;
   float: left;
 
 }
 .image-footer {
   width: 200px;
-  height: 10px;
+  height: 25px;
   float: left;
 }
 .image-number {
@@ -39,4 +46,9 @@ a img {
 
 .authors {
   list-style: none;
+}
+.authors li a img {
+  width: 20px;
+  height: 20px;
+  float: right;
 }
