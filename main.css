@@ -1,5 +1,5 @@
 .octodex {
-  margin: 0;
+  margin: 40px 0 0 20px;
   padding: 0;
   width: 900px;
   list-style: none;
@@ -20,35 +20,45 @@ a {
   text-decoration: none;
 }
 a img {
-  width: 200px;
-  height: 200px;
-  border-style: grey;
-  border: 5px;
+  width: 280px;
+  border: solid #CBCBCB 1px;
   float: left;
-
+  border-radius: 3px;
 }
 .image-footer {
-  width: 200px;
+  width: 280px;
   height: 25px;
   float: left;
+  border-bottom: 2px solid #CBCBCB;
+  padding: 5px 0 5px 0;
+  color: #CBCBCB;
+  font-family: sans-serif;
+
 }
 .image-number {
   width: 50px;
   height: 25px;
-
+}
+.image-number:before {
+  content: "#"
 }
 .image-caption {
-  width: 150px;
-  height: 25px;
+  width: 220px;
   display: inline;
   float: right;
+  /*background-color: yellow;*/
+  text-align: right;
 }
 
 .authors {
   list-style: none;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  padding-left: 8px;
 }
 .authors li a img {
   width: 20px;
-  height: 20px;
   float: right;
+  border: none;
 }
