@@ -1,0 +1,42 @@
+.octodex {
+  margin: 0;
+  padding: 0;
+  width: 900px;
+  height: 300px;
+}
+
+.octocat {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+a img {
+  width: 200px;
+  height: 200px;
+  border-style: solid grey;
+  border: 5px;
+  float: left;
+
+}
+.image-footer {
+  width: 200px;
+  height: 10px;
+  float: left;
+}
+.image-number {
+  width: 50px;
+  height: 25px;
+
+}
+.image-caption {
+  width: 150px;
+  height: 25px;
+  display: inline;
+  float: right;
+}
+
+.authors {
+  list-style: none;
+}
